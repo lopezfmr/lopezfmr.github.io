@@ -1,12 +1,7 @@
 
-//add role
-var HTMLheaderRole = '<div id="role" class="color-secondary-2-1">%data%</div><hr>';
-var formattedRole = HTMLheaderRole.replace("%data%", boutMe.role);
-$("#top").prepend(formattedRole);
-// add Name
-var HTMLheaderName = '<h1 id="name" class="color-secondary-1-4">%data%</h1>';
-var formattedName = HTMLheaderName.replace("%data%", boutMe.name);
-$("#top").prepend(formattedName);
+//add contact information
+$("#role").prepend(boutMe.role);
+$("#name").prepend(boutMe.name);
 
 //Contact Info 
 var HTMLmobile = '<li class="flex-item"><span class="color-primary-4">mobile:</span><a href="tel:%anchor%" target="_top" class="color-primary-1">%data%</a></li>';
@@ -218,3 +213,6 @@ window.addEventListener('resize', function(e) {
 });
 
 $("#mapDiv").append(googleMap);
+
+//add scroll spy
+$('body').scrollspy({ target: '#navbar-mainTop' })

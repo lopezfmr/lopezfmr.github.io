@@ -1,5 +1,6 @@
 //BIOGRAPHIC INFORMATION
 var boutMe = {
+    "section" : "About me!",
     "name" : "Miguel R. Lopez",
     "role" : "Manufacturing Engineer",
     "contacts" : {
@@ -30,6 +31,7 @@ var boutMe = {
 
 //WORK INFORMATION
 var veDone= {
+    "section": "What I've done...",
     "jobs": [
         {
             "employer": "TechnipFMC",
@@ -127,7 +129,7 @@ var veDone= {
             "for":"FMC University",
             "location":"Buenos Aires, Argentina",
             "dates":"February 2015",
-            "images": [ 
+            "images": [
                 "images/miguelPicture.png",
                 "images/miguelPicture.png"
                 ]
@@ -157,6 +159,7 @@ var veDone= {
 
 //EDUCATION INFORMATION
 var veLearned = {
+    "section": "What I've learned...",
     "schools": [
         {
             "name": "University of Oklahoma",
@@ -239,10 +242,11 @@ var veLearned = {
     ]
 };
 
-// HOBBIES
+//HOBBIES
 var vePlayed = {
-    "fishing" : [],
-    "photography" : [],
-    "FlyCopters" : [],
-    "funFacts" : []
-}
+    "section" : "What I've played with...",
+    "fishing" : [32, 43, 77],
+    "photography" : ["aa", "bb", "cc"],
+    "FlyCopters" : ["me", "tu", "el"],
+    "funFacts" : ["ha ha", "je je", "ji ji"]
+    };
