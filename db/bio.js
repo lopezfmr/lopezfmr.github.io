@@ -36,15 +36,26 @@ var veDone= {
         {
             "employer": "TechnipFMC",
             "url": "http://www.tecnipfmc.com",
-            "title": "Global Production Engineer",
+            "title": "Business System Specialist",
+            "department": "Suatface Technologies",
             "location": "Houston, TX",
-            "dates": "January 2017 - Present",
+            "dates": "February 2018 - Present",
+            "description": ["D1", "D2"]
+        },
+        {
+            "employer": "TechnipFMC",
+            "url": "http://www.tecnipfmc.com",
+            "title": "Global Production Engineer for Automation and Data Aquisition",
+            "department": "Global Production Engineering",
+            "location": "Houston, TX",
+            "dates": "January 2017 - January 2018",
             "description": ["Designed and implemented multiple databases for identification of part (label and hard stamp)", "through the use of barcodes systems and zero manual input."]
         },
         {
             "employer": "FMCTechnologies",
             "url": "http://www.fmcti.com",
             "title": "Lead Manufacturing Engineer",
+            "department": "Subsea Components",
             "location": "Houston, TX",
             "dates": "October 2015 - December 2016",
             "description": ["Lead the implementation of the Manufacturing Execution System (MES) for SDS, Western Region Quality, ", "SS Warehouse, MPS, SS High and Low Bay. Also, trained 5 groups of engineers to be administrators."]
@@ -53,6 +64,7 @@ var veDone= {
             "employer": "FMCTechnologies",
             "url": "http://www.fmcti.com",
             "title": "Manufacturing Engineer",
+            "department": "Manifolds and Pipe Lines",
             "location": "Houston, TX",
             "dates": "October 2015 - December 2016",
             "description": ["Lead the implementation of the Manufacturing Execution System (MES) for SDS, Western Region Quality, ", "SS Warehouse, MPS, SS High and Low Bay. Also, trained 5 groups of engineers to be administrators."]
