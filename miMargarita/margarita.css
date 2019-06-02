@@ -1,0 +1,33 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight: bolder;
+}
+
+.jumbotron {
+    background: url("img/SellingMargarita_bkgd.png") no-repeat center center;
+    background-size: cover;
+}
+.titleBox {
+    background-color:black;
+    text-align: center;
+    padding: 70px 25px;
+    opacity: .75;
+    color: white;
+    
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    border-radius: 5px;
+}
+.horLine {
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 30px 0;
+}
+
+.alert {
+    text-align: center;
+}
