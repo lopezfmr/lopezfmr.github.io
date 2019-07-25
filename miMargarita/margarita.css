@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 h1{
     font-weight: bolder;
@@ -8,7 +9,7 @@ h1{
 .jumbotron {
     background: url("img/SellingMargarita_bkgd.png") no-repeat center center;
     background-size: cover;
-    height: 100vh;
+    height: 99vh;
 }
 .titleBox {
     background-color:black;
